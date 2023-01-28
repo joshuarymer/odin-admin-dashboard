@@ -73,6 +73,23 @@ svg {
     padding: 20px;
 }
 
+.button-con {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 20px;
+}
+
+button {
+    background-color: #0284c7;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 17px;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 .main-con {
     background-color:  #e0f2fe;
     padding: 50px;
