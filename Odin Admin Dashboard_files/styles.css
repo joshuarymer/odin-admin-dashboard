@@ -150,28 +150,25 @@ button {
 }
 
 .projects-wrap {
-    grid-row: 1 / 3;
-    grid-column: 1 / 2;
     display: grid;
-    grid-template-rows: 30px 8fr;
+    grid-template-rows: 20px 100px;
+
 }
 
 .projects {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto-fit, 1fr);
 }
 
-.pro-title {
-    padding-bottom: 10px;
-}
 
 .project-content {
     display: grid;
     padding: 20px;
     font-size: 0.9rem;
-    gap: 10px;
     grid-template-rows: 1fr 3fr 1fr;
     background-color: white;
     border-radius: 10px;
@@ -188,28 +185,14 @@ button {
     justify-content: end;
 }
 
-.announcements-wrap {
+.announcements {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    display: grid;
-    grid-template-rows: 1fr 8fr;
-
-}
-
-.announcements {
     background-color: white;
-    border-radius: 10px;
-}
-
-.trending-wrap {
-    grid-row: 2 / 3;
-    grid-column: 2 / 3;
-    display: grid;
-    grid-template-rows: 1fr 8fr;
-
 }
 
 .trending {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
     background-color: white;
-    border-radius: 10px;
 }
