@@ -99,6 +99,7 @@ input[type=search] {
     border: 0px;
     background-color: #e0f2fe;
     height: 1.3rem;
+    padding-left: 10px;
 }
 
 .alert-con {
