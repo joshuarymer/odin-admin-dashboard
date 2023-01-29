@@ -67,16 +67,54 @@ svg {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
-.header > div {
-    padding: 20px;
+
+.catpic {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.search-con {
+    display: grid;
+    grid-template-columns: 40px 300px;    
+    gap: 10px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+input[type=search] {
+    border-radius: 15px;
+    border: 0px;
+    background-color: #e0f2fe;
+    height: 1.3rem;
+}
+
+.alert-con {
+    display: grid;
+    grid-template-columns: 40px 60px 200px;    
+    gap: 15px;
+    justify-content: end;
+    align-items: center;
+}
+
+.welcome-con {
+    display: grid;
+    grid-template-columns: 40px 300px;    
+    gap: 30px;
+    padding-left: 20px;
+    align-items: center;
 }
 
 .button-con {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     gap: 20px;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
 }
 
 button {
