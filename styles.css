@@ -197,8 +197,23 @@ button {
 }
 
 .announcements {
+    display: grid;
+    padding: 20px;
     background-color: white;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.announce-section {
+    display: grid;
+    gap: 2px;
+    padding: 10px;
+}
+
+.underlined {
+    border-bottom: 1px solid rgba(187, 187, 187, 0.75)
 }
 
 .trending-wrap {
